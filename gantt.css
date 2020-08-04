@@ -1,0 +1,95 @@
+.chartGT{
+  display: flex;
+  width:100%;
+  border:1px solid #1549c2;
+}
+  
+.chartGT .GT-left-box{
+  width:160px;
+  height:100%;
+  border-right: 1px solid #1549c2;
+}
+.chartGT .GT-left-box .seize{
+  height:60px;
+  
+}
+.chartGT .GT-left-box .device-name{
+  position: relative;
+  padding:0 8px;
+  height:50px;
+}
+      
+.chartGT .GT-left-box .device-name  span{
+  position: absolute;
+  top:50%;
+  width:90%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color:#333;
+}
+.GT-body-box{
+  width:100%;
+  flex-grow: 1;
+  height:100%;
+}
+.GT-body-box .top-scale{
+  height:60px;
+}
+.GT-body-box .top-scale .lg-scale{
+  float:left;
+  height:60px;
+  border-bottom:1px solid #1549c2;
+}
+.GT-body-box .top-scale .lg-scale .scale-top{
+  text-align: center;
+  height:30px;
+  border-bottom:1px solid #1549c2;
+}
+.GT-body-box .top-scale .lg-scale .scale-top  p{
+  border-right:1px solid #1549c2;
+  color:#333;
+  text-align: center;
+  line-height:30px;
+  font-size: 14px;
+}
+
+.GT-body-box .top-scale  .scale-bottom{
+  display: flex;
+  height:30px;
+  border-bottom:1px solid #1549c2;
+}
+.GT-body-box .top-scale  .scale-bottom p{
+  flex-grow: 1;
+  border-right:1px solid #1549c2;
+  color:#333;
+  text-align: center;
+  line-height:30px;
+  font-size: 14px;
+}
+
+.GT-body-box .item-bar{
+  position: relative;
+  padding-top:7px;
+  height:50px;
+  border-bottom:1px solid #999;
+}
+.GT-body-box .item-bar p{
+  position: absolute;
+  height:25px;
+  border-radius: 3px;
+  font-size: 14px;
+  background: linear-gradient(to right, #559bfb 0%,#8b68ed 100%);
+  opacity: 0.8;
+  text-align: center;
+  color:#fff;
+  line-height:25px;
+  overflow: hidden;    
+  text-overflow:ellipsis;    
+  white-space: nowrap;
+  cursor: pointer;
+}
+.GT-body-box .item-bar p:hover{
+  opacity: 1;
+}
